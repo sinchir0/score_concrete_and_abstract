@@ -20,7 +20,7 @@ poetry run python concrete_and_abstract/add_mrcdb.py
 ## 推論なし
 
 ```bash
-poetry run python concrete_and_abstract/main_with_pred.py
+poetry run python concrete_and_abstract/main_org.py
 ```
 
 ## 推論あり
