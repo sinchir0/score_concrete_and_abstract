@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "concrete-and-abstract"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "concrete_and_abstract"}]
+
+[tool.poetry.dependencies]
+python = "3.9.4"
+deepl = "^1.11.0"
+pandas = "^1.5.2"
+black = "^22.12.0"
+isort = "^5.11.2"
+flake8 = "^6.0.0"
+tqdm = "^4.64.1"
+vibrato = "^0.1.1"
+ipython = "^8.7.0"
+nltk = "^3.8"
+gensim = {git = "https://github.com/RaRe-Technologies/gensim.git", rev = "develop"}
+scikit-learn = "^1.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+ipykernel = "^6.19.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
